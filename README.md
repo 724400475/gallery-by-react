@@ -1,4 +1,4 @@
-gallery-by-react
+#gallery-by-react
 
 a photo gallery project based on react
 
@@ -13,7 +13,7 @@ npm start
 
 当然，学一门新技术可能会遇到很多问题，尤其是最新版本和教程已经有很不同之处，这需要有足够的耐心，一步一步去解决它。
 
-项目搭建
+#项目搭建
 
 上面的有点简单粗暴，下面就仔细分析一下项目的具体搭建过程。
 
@@ -82,7 +82,7 @@ sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
 SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/ npm install
 秒下，效果就是不一般
 
-目录结构
+#目录结构
 
 打开工程，目录结构如下，这个与视频之中有点不一样，没了Gruntfile.js和webpack.dist.config.js，莫方，容我一一道来
 
@@ -115,7 +115,7 @@ npm run serve
 
 代码就不在这里写了，可以查看我github上本项目的代码，拷贝下来可以直接使用，最好是自己参考着写。
 
-注意事项
+#注意事项
 
 刚开始的时候把post-css选为yes,因为课程中用到的autoprefixer-loader is deprecated，具体可看
 
@@ -140,7 +140,7 @@ singeImageData.imageUrl = require('../images/'+singeImageData.fileName);
 imgFigureClassName += this.props.arrange.isInverse ? ' is-inverse' : '';
 切不可大意，不过遇到问题，慢慢解决就好，代码不会犯错，只有人会犯错。
 
-最后
+#最后
 
 materliu是个非常好的带有文艺气息的高水平的程序员，已经路转粉了。
 
